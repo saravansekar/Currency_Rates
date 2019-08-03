@@ -1,0 +1,10 @@
+{
+    "name" : "To check current Currency Rates",
+    "version" : 0.1,
+    "description" : "Track the current currency rates with click of a button",
+    "manifest_version": 2,
+    "permissions": ["storage"],
+    "page_action": {
+        "default_popup": "popup.html"
+      }
+}
