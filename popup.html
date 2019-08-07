@@ -7,9 +7,24 @@
     <title>Current Currency Rates</title>
 
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="arrangment.css">
   </head>
   <body>
+    <input type="button" name="answer" value="Add Currency Conv" onclick="onButtonClick()" />
+    <div data-tip="Enter Currency Code Base Ex:USD">      
+     <input class="hide" type="text" id="currency_base" />
+     </div>
+     <div data-tip="Enter Currency Code Conv Ex:INR">    
+          <input class="hide" type="text" id="currency_conv" />
+     </div>
     <div id="root"></div>
     <script src="scripts.js"></script>
+    <a href="https://exchangeratesapi.io/" target="_blank">
+      <p>
+        <small>
+          Data Source from exchangeratesapi.io
+        </small>
+      </p>
+    </a>
   </body>
 </html>
